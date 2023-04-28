@@ -33,7 +33,7 @@ def get_unique_dtypes(df, col):
     return unique_dtypes
 
 
-#esta checalas
+#esta checalasgg
 
 def time_of_day(hour): # funcion para agrupar y asi reducir la cantidad de horas del dia en periodos preestablecidos
 
