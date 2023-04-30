@@ -1,7 +1,8 @@
 # Project_SQL
 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/SQL_DataBase/blob/main/Images/so-sad.jpg" width="500" height="500">
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/so-sad.jpg" width="500" height="500">
+
 Hemos empezado por una limpieza de los CSV. 
 
 ## Metodología de limpieza
