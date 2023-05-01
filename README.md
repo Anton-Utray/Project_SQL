@@ -48,6 +48,8 @@ Ya con una idea mas clara, nos lanzamos al forward engineering de workbench y cr
 
 El plan será entonces usar este diagrama como hoja de ruta y adecuar los CSV a la estructura de las tablas, haciendo drop o merges cuando se necesite. 
 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/Diagrama_final(reverse).jpg" width="500" height="500">
+
 ##  💻 SQL ✔️
 
 Tras esta adecuación, exportamos los CSV y usamos el table import wizzard de workbench. En un principio la idea fue de usar la misma interfaz grafica con la que creamos el ERR diagram pero tras varios intentos fallidos, cambiamos de estrategia. Tendremos que poner la query a mano. 
