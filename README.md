@@ -12,9 +12,9 @@ El cliente me proporciona 7 CSV que contienen distintas tablas relacionadas a su
 
 La secuencia de este proyecto se dividirá en 3 fases:
 
- 1.Limpieza de datos provenientes de los CSV.
- 2.Creación de nueva estructura de base de datos para MySQL.
- 3.Adecuación de tablas y exportación a MySQL.
+        1.Limpieza de datos provenientes de los CSV.
+        2.Creación de nueva estructura de base de datos para MySQL.
+        3.Adecuación de tablas y exportación a MySQL.
 
 ## Metodología de limpieza
 
