@@ -98,7 +98,11 @@ ADD CONSTRAINT fk_inventory_film1
   ON DELETE NO ACTION
   ON UPDATE NO ACTION;
 
-DELETE FROM videoclub.rental WHERE inventory_id > 1000; -- En la ultima etapa 
+DELETE FROM videoclub.rental WHERE inventory_id > 1000; -- En la ultima etapa nos dimos cuenta de que inventory id solo tiene valores hasta 1000.
+
+-- Rental por otro lado tiene ids de inventorio por encima de los 4000. La tabla de inventario por lo tanto está incompleta.
+-- Para evitar errores de vinculación entre tablas por medio de foreign keys, borraremos todos los ids por encima de 1000. 
+-- A posteriori tocará revisar con el cliente como recuperar esta información faltante y asi poder tener la base de datos completa. 
 
   
 ALTER TABLE videoclub.rental 
