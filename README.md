@@ -35,10 +35,10 @@ La metodología sigue los siguientes pasos:
 
 Tomamos los CSV como molde para la estructura de la base de datos. De ahí emprendemos un analisis critico para optimizar esta estructura:
 
-- Cuantas tablas necesitamos:
-  - Faltan/sobran tablas?    
-- Hay alguna columna que no nos interese? 
-- La estructura de columna por tablas es congruente? Faltaría hacer adecuaciones?
+        - Cuantas tablas necesitamos:
+          - Faltan/sobran tablas?    
+        - Hay alguna columna que no nos interese? 
+        - La estructura de columna por tablas es congruente? Faltaría hacer adecuaciones?
 
 A través de estas preguntas vamos mapeando en un cuaderno una primera idea de como organizar nuestra base de datos. 
 
