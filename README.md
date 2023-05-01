@@ -42,13 +42,15 @@ Tomamos los CSV como molde para la estructura de la base de datos. De ahí empre
 
 A través de estas preguntas vamos mapeando en un cuaderno una primera idea de como organizar nuestra base de datos. 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/Diagrama_inicial.jpg" width="500" height="500">
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/Diagrama_inicial%20.jpg" width="500" height="500">
 
 Ya con una idea mas clara, nos lanzamos al forward engineering de workbench y creamos el diagrama. En un principio, la idea era de crear el diagrama y luego añadir la información a las tablas del mismo. Sin embargo, debido a la presencia de varias Foreign Keys en la estructura de base de datos, opté por importar primero las tablas para luego asignar las relaciones entre ellas.
 
 El plan será entonces usar este diagrama como hoja de ruta y adecuar los CSV a la estructura de las tablas, haciendo drop o merges cuando se necesite. 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/Diagrama_final(reverse).jpg" width="500" height="500">
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/Diagrama_final%20(reverse).JPG" width="500" height="500">
+
+https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/Diagrama_final%20(reverse).JPG
 
 ##  💻 SQL ✔️
 
