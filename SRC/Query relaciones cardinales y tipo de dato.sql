@@ -6,6 +6,12 @@ Despues, haremos las relaciones de FK porque no he conseguido hacerlo a través 
 Me he fijado que en la query de uno de los labs que usa ADD INDEX en las FK de cada tabla para cambiar la estructura a indice
 Esto hace mas eficiente el codigo. A la hora de asignar las FK se tiene que hacer referencia al indice de la FK en vez de la columna en si. (para que en vez de leer como entero, lo lee como indice y hace las asociaciones mas rapido)
 
+En la ultima asociación de FK me dí cuenta que no encajan los valores de las columnas 'inventory ID' entre las tablas 'rental' y 'inventory'. En inventory los ID tienen rango hasta 1000 y en rental ascienden hasta los 4000 y cacho. 
+
+Esto significa que nuestra base de datos de inventory está incompleta. En concreto solo tiene inventario de las peliculas de A-D.
+
+Para efectos de poder vincular las tablas con FK, borraré de la tabla 'rental' todas las filas que contengan un id por encima de 1000. Cuando el cliente entregue la base de datos completa podremos añadir los IDs faltantes. 
+
 */
 
 ALTER TABLE videoclub.actor
@@ -92,7 +98,7 @@ ADD CONSTRAINT fk_inventory_film1
   ON DELETE NO ACTION
   ON UPDATE NO ACTION;
 
-DELETE FROM videoclub.rental WHERE inventory_id > 1000; -- esto porque no encajan 
+DELETE FROM videoclub.rental WHERE inventory_id > 1000; -- En la ultima etapa 
 
   
 ALTER TABLE videoclub.rental 

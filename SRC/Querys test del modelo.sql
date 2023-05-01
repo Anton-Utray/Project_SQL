@@ -70,3 +70,10 @@ SELECT staff_id, count(rental.rental_id) as rental_count
 FROM rental
 GROUP BY staff_id
 ORDER BY rental_count DESC;
+
+-- catalogo pelis por rating
+
+SELECT rating, COUNT(film.title) AS title_count
+FROM film
+GROUP BY rating
+ORDER BY title_count DESC ;
