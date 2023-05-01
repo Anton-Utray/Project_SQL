@@ -20,16 +20,16 @@ La secuencia de este proyecto se dividirá en 3 fases:
 
 La metodología sigue los siguientes pasos:
 
- - .head() para un vistazo inicial de cada tabla
- - .info() 
-    - double-check dtypes
-    - valores nulos
-- formula propia "uniquecols". Devuelve el conteo de valores unicos por columna.
-   - el conteo de unicos en "ID" de cada tabala tiene que ser igual al numero de filas, para SQL.
-   - las columnas con 1 valor unico se borran, ya que no aportan información.
+       - .head() para un vistazo inicial de cada tabla
+       - .info() 
+       - double-check dtypes
+       - valores nulos
+       - formula propia "uniquecols". Devuelve el conteo de valores unicos por columna.
+       - el conteo de unicos en "ID" de cada tabala tiene que ser igual al numero de filas, para SQL.
+       - las columnas con 1 valor unico se borran, ya que no aportan información.
 
-- duplicated().any() ver si hay duplicados. 
-   - en ciertas tablas hemos ido mas allá y verificado duplicados usando subset de      columnas. 
+       - duplicated().any() ver si hay duplicados. 
+       - en ciertas tablas hemos ido mas allá y verificado duplicados usando subset de      columnas. 
 
 ## Brainstorming ERR Diagram
 
