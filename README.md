@@ -50,7 +50,7 @@ El plan será entonces usar este diagrama como hoja de ruta y adecuar los CSV a 
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/Diagrama_final%20(reverse).JPG" width="500" height="500">
 
-https://github.com/Anton-Utray/SQL_DataBase/blob/main/IMAGES/Diagrama_final%20(reverse).JPG
+
 
 ##  💻 SQL ✔️
 
